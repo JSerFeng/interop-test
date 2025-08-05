@@ -4,11 +4,14 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "tests": "node lib/runNodeTest.js && node lib/runBabelTest.js && node lib/runBabelJsTest.js && node lib/runWebpackTest.js && node lib/runWebpackJsTest.js && node lib/runRollupTest.js && node lib/runParcelTest.js && node lib/runEsbuildTest.js && node --openssl-legacy-provider lib/runWebpack4Test.js && node --openssl-legacy-provider lib/runWebpack4MjsTest.js && node lib/mergeResults.js && yarn prettier --write *.md",
+    "tests": "node lib/runRspackTest.js && node lib/runNodeTest.js && node lib/runBabelTest.js && node lib/runBabelJsTest.js && node lib/runWebpackTest.js && node lib/runWebpackJsTest.js && node lib/runRollupTest.js && node lib/runParcelTest.js && node lib/runEsbuildTest.js && node --openssl-legacy-provider lib/runWebpack4Test.js && node --openssl-legacy-provider lib/runWebpack4MjsTest.js && node lib/mergeResults.js && yarn prettier --write *.md",
+    "tests:webpack": "node lib/runWebpackJsTest.js && node lib/mergeResults.js && yarn prettier --write *.md",
+    "tests:rspack": "node lib/runWebpackTest.js && node lib/runRspackTest.js && node lib/mergeResults.js && yarn prettier --write *.md",
     "merge": "node lib/mergeResults.js && yarn prettier --write *.md",
     "pretty": "yarn prettier --write *.md"
   },
   "devDependencies": {
     "prettier": "^2.1.2"
-  }
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }
