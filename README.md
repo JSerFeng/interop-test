@@ -22,6 +22,7 @@
   - [`require()`](by-syntax#x--require) and similar
 - [Direct differences](diffs)
   - [Webpack <-> Node.js (`.mjs`)](diffs#webpack---nodejs-mjs)
+  - [Webpack <-> Rspack (`.mjs`)](diffs#webpack---rspack-mjs)
   - [Babel <-> Node.js (`.mjs`)](diffs#babel---nodejs-mjs)
   - [Webpack `.mjs` <-> `.js`](diffs#babel-mjs---js)
   - [Babel `.mjs` <-> `.js`](diffs#webpack-mjs---js)
