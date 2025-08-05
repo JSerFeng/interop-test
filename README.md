@@ -3,6 +3,7 @@
 - [Test Cases](fixtures)
 - [Results](by-tool)
   - [Node.js](by-tool#nodejs)
+  - [Rspack](by-tool#rspack)
   - [Babel](by-tool#babel)
   - [Webpack](by-tool#webpack)
   - [Rollup.js](by-tool#rollup)
