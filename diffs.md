@@ -25,9 +25,9 @@ For readablility some shortcuts are applied:
 
 <!-- diff-rspack-webpack results -->
 
-| rspack-webpack | fixture | rspack | webpack |
-| -------------- | ------- | ------ | ------- |
-
+| rspack-webpack                        | fixture                                                                                                                                                                                                                                                                                         | rspack  | webpack |
+| ------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- | ------- |
+| `import * as x; x === await import()` | default-export-esModule-esm-reexport<br><br>default-export-esm<br><br>named-and-default-export-esModule-esm-reexport<br><br>named-and-default-export-esm<br><br>named-and-default-export-esm-esm-reexport<br><br>named-and-default-export-esm-reexport<br><br>named-export-esm<br><br>order-esm | `false` | `true`  |
 
 ## Webpack <-> Node.js (`.mjs`)
 
